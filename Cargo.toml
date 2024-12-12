@@ -9,10 +9,15 @@ ark-bn254 = "0.5.0"
 ark-ff = "0.5.0"
 ark-groth16 = "0.5.0"
 ark-snark = "0.5.1"
-arkworks-gadgets = "0.4.20"
 num-bigint = "0.4.6"
 serde = "1.0.216"
 serde_derive = "1.0.216"
 serde_json = "1.0.133"
 thiserror = "2.0.6"
 tiny-keccak = { version = "2.0.0", features = ["keccak"] }
+leanimt-rs = { git = "https://github.com/vplasencia/leanimt-rs" } 
+light-poseidon = { git = "https://github.com/adria0/light-poseidon" }
+ark-ed-on-bn254 = "0.5.0"
+blake2 = "0.10.6"
+ff = "0.13.0"
+
