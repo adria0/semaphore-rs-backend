@@ -20,4 +20,6 @@ light-poseidon = { git = "https://github.com/adria0/light-poseidon" }
 ark-ed-on-bn254 = "0.5.0"
 blake2 = "0.10.6"
 ff = "0.13.0"
-
+ff_ce = { package="ff_ce" , version= "0.11", features = ["derive"]}
+ark-ec = "0.5.0"
+babyjubjub-rs = "0.0.11"
